@@ -24,6 +24,11 @@ header nav a {
   margin-left: 20px;
 }
 
+.link {
+  text-decoration: none;
+}
+
+
 main {
   padding: 20px;
 }
