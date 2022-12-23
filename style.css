@@ -1,12 +1,12 @@
 body {
-  font-family: 'Arial', serif;
+  font-family: Arial, serif;
   margin: 0;
   padding: 0;
   background-color: #FFFFFF;
 }
 
 header {
-  background-color: #057fe8;
+  background-color: #0b68b8;
   color: #fff;
   display: flex;
   justify-content: space-between;
