@@ -12,16 +12,6 @@ body.dark-mode {
   color: white;
 }
 
-header.dark-mode (
- background-color: black;
-  color: #fff;
-display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-}
-
-
 header {
   background-color: #1174d4;
   color: #fff;
@@ -31,10 +21,14 @@ header {
   padding: 20px;
 }
 
+header.dark-mode {
+  background-color: black;
+  color: #fff;
+}
+
 header h1 {
   margin: 0;
 }
-
 
 header nav a {
   color: #fff;
@@ -42,6 +36,9 @@ header nav a {
   margin-left: 20px;
 }
 
+#dark-mode-text {
+  margin-left: auto;
+}
 
 main {
   padding: 20px;
@@ -63,5 +60,9 @@ footer {
 
   header nav {
     margin-top: 20px;
+  }
+
+  #dark-mode-text {
+    margin-top: 10px;
   }
 }
